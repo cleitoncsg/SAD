@@ -996,3 +996,881 @@ groovy.lang.MissingPropertyException: No such property: roboInstance for class: 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:34:36,547 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: java.lang.String.getText() is applicable for argument types: () values: []
+Possible solutions: getAt(int), getAt(java.util.Collection), getAt(java.util.Collection), getAt(groovy.lang.EmptyRange), getAt(groovy.lang.Range), getAt(groovy.lang.IntRange)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:55)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaClassSite.call(PojoMetaClassSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112)
+	at dengue.RegiaoController$$EOwXEdYO.leArquivo(RegiaoController.groovy:136)
+	at dengue.RegiaoController$$EOwXEdYO.this$2$leArquivo(RegiaoController.groovy)
+	at dengue.RegiaoController$$DOwXEdYO.__execute(Unknown Source)
+	at dengue.RegiaoController.__execute(RegiaoController.groovy)
+	at dengue.RegiaoController$this$2$leArquivo$5.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137)
+	at dengue.RegiaoController$$EOwXEdYO.sad(RegiaoController.groovy:145)
+	at dengue.RegiaoController$$EOwXEdYO.this$2$sad(RegiaoController.groovy)
+	at dengue.RegiaoController$$DOwXEdYO.this$2$sad(Unknown Source)
+	at dengue.RegiaoController.this$2$sad(RegiaoController.groovy)
+	at dengue.RegiaoController$this$2$sad$2.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137)
+	at dengue.RegiaoController$$EOwXEdYO.$tt__save(RegiaoController.groovy:36)
+	at dengue.RegiaoController$$DOwXEdYO.$tt__save(Unknown Source)
+	at dengue.RegiaoController.$tt__save(RegiaoController.groovy)
+	at dengue.RegiaoController$_save_closure4$$EOwXEdYO.doCall(RegiaoController.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReloadedTypeInvoker$2.invoke(ReloadedTypeInvoker.java:122)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1283)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1086)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:910)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at dengue.RegiaoController$_save_closure4.call(RegiaoController.groovy)
+	at groovy.lang.Closure.call(Closure.java:427)
+	at dengue.RegiaoController$_save_closure4.call(RegiaoController.groovy)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate$1.doInTransaction(GrailsTransactionTemplate.groovy:62)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:131)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate.execute(GrailsTransactionTemplate.groovy:59)
+	at dengue.RegiaoController$$EOwXEdYO.save(RegiaoController.groovy)
+	at dengue.RegiaoController$$DOwXEdYO.save(Unknown Source)
+	at dengue.RegiaoController.save(RegiaoController.groovy)
+	at dengue.RegiaoController$$EOwXEdYO.save(RegiaoController.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReloadedTypeInvoker$2.invoke(ReloadedTypeInvoker.java:122)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1283)
+	at org.codehaus.groovy.grails.web.servlet.mvc.MixedGrailsControllerHelper.invoke(MixedGrailsControllerHelper.java:154)
+	at org.codehaus.groovy.grails.web.servlet.mvc.AbstractGrailsControllerHelper.handleAction(AbstractGrailsControllerHelper.java:354)
+	at org.codehaus.groovy.grails.web.servlet.mvc.AbstractGrailsControllerHelper.executeAction(AbstractGrailsControllerHelper.java:231)
+	at org.codehaus.groovy.grails.web.servlet.mvc.AbstractGrailsControllerHelper.handleURI(AbstractGrailsControllerHelper.java:197)
+	at org.codehaus.groovy.grails.web.servlet.mvc.AbstractGrailsControllerHelper.handleURI(AbstractGrailsControllerHelper.java:121)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsController.handleRequest(SimpleGrailsController.java:72)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.codehaus.groovy.grails.web.servlet.GrailsDispatcherServlet.doDispatch(GrailsDispatcherServlet.java:355)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:953)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:829)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:343)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:260)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:332)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:297)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:288)
+	at org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter.doFilterInternal(UrlMappingsFilter.java:217)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.executeFilterChainWithWrappedResponse(GrailsPageFilter.java:233)
+	at org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.obtainContent(GrailsPageFilter.java:208)
+	at org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.doFilter(GrailsPageFilter.java:153)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at javax.servlet.FilterChain$doFilter.call(Unknown Source)
+	at org.grails.plugin.resource.DevModeSanityFilter.doFilter(DevModeSanityFilter.groovy:45)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.codehaus.groovy.grails.web.servlet.mvc.GrailsWebRequestFilter.doFilterInternal(GrailsWebRequestFilter.java:69)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.codehaus.groovy.grails.web.filters.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:67)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:343)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:260)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:34:36,571 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: java.lang.String.getText() is applicable for argument types: () values: []
+Possible solutions: getAt(int), getAt(java.util.Collection), getAt(java.util.Collection), getAt(groovy.lang.EmptyRange), getAt(groovy.lang.Range), getAt(groovy.lang.IntRange)
+	at dengue.RegiaoController$$EOwXEdYO.leArquivo(RegiaoController.groovy:136)
+	at dengue.RegiaoController$$EOwXEdYO.sad(RegiaoController.groovy:145)
+	at dengue.RegiaoController$$EOwXEdYO.$tt__save(RegiaoController.groovy:36)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:34:36,607 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: java.lang.String.getText() is applicable for argument types: () values: []
+Possible solutions: getAt(int), getAt(java.util.Collection), getAt(java.util.Collection), getAt(groovy.lang.EmptyRange), getAt(groovy.lang.Range), getAt(groovy.lang.IntRange)
+	at dengue.RegiaoController$$EOwXEdYO.leArquivo(RegiaoController.groovy:136)
+	at dengue.RegiaoController$$EOwXEdYO.sad(RegiaoController.groovy:145)
+	at dengue.RegiaoController$$EOwXEdYO.$tt__save(RegiaoController.groovy:36)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:34:36,608 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: java.lang.String.getText() is applicable for argument types: () values: []
+Possible solutions: getAt(int), getAt(java.util.Collection), getAt(java.util.Collection), getAt(groovy.lang.EmptyRange), getAt(groovy.lang.Range), getAt(groovy.lang.IntRange)
+	at dengue.RegiaoController$$EOwXEdYO.leArquivo(RegiaoController.groovy:136)
+	at dengue.RegiaoController$$EOwXEdYO.sad(RegiaoController.groovy:145)
+	at dengue.RegiaoController$$EOwXEdYO.$tt__save(RegiaoController.groovy:36)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:34:36,610 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: java.lang.String.getText() is applicable for argument types: () values: []
+Possible solutions: getAt(int), getAt(java.util.Collection), getAt(java.util.Collection), getAt(groovy.lang.EmptyRange), getAt(groovy.lang.Range), getAt(groovy.lang.IntRange)
+	at dengue.RegiaoController$$EOwXEdYO.leArquivo(RegiaoController.groovy:136)
+	at dengue.RegiaoController$$EOwXEdYO.sad(RegiaoController.groovy:145)
+	at dengue.RegiaoController$$EOwXEdYO.$tt__save(RegiaoController.groovy:36)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:34:36,612 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: java.lang.String.getText() is applicable for argument types: () values: []
+Possible solutions: getAt(int), getAt(java.util.Collection), getAt(java.util.Collection), getAt(groovy.lang.EmptyRange), getAt(groovy.lang.Range), getAt(groovy.lang.IntRange)
+	at dengue.RegiaoController$$EOwXEdYO.leArquivo(RegiaoController.groovy:136)
+	at dengue.RegiaoController$$EOwXEdYO.sad(RegiaoController.groovy:145)
+	at dengue.RegiaoController$$EOwXEdYO.$tt__save(RegiaoController.groovy:36)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:54:48,326 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: regiaoInstance for class: dengue.RegiaoController
+	at org.codehaus.groovy.grails.plugins.web.api.ControllerTagLibraryApi.propertyMissing(ControllerTagLibraryApi.java:115)
+	at dengue.RegiaoController$$EOwXJFiK.propertyMissing(RegiaoController.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReloadedTypeInvoker$2.invoke(ReloadedTypeInvoker.java:122)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1283)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaClassImpl.invokeMissingProperty(MetaClassImpl.java:779)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:1734)
+	at groovy.lang.ExpandoMetaClass.getProperty(ExpandoMetaClass.java:1140)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:3461)
+	at groovy.lang.ExpandoMetaClass.getProperty(ExpandoMetaClass.java:1152)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassGetPropertySite.getProperty(PogoMetaClassGetPropertySite.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:231)
+	at dengue.RegiaoController$$EOwXJFiK.sad(RegiaoController.groovy:145)
+	at dengue.RegiaoController$$EOwXJFiK.this$2$sad(RegiaoController.groovy)
+	at dengue.RegiaoController$$DOwXJFiK.this$2$sad(Unknown Source)
+	at dengue.RegiaoController.this$2$sad(RegiaoController.groovy)
+	at dengue.RegiaoController$this$2$sad$2.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137)
+	at dengue.RegiaoController$$EOwXJFiK.$tt__save(RegiaoController.groovy:36)
+	at dengue.RegiaoController$$DOwXJFiK.$tt__save(Unknown Source)
+	at dengue.RegiaoController.$tt__save(RegiaoController.groovy)
+	at dengue.RegiaoController$_save_closure4$$EOwXJFiK.doCall(RegiaoController.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReloadedTypeInvoker$2.invoke(ReloadedTypeInvoker.java:122)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1283)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1086)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:910)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at dengue.RegiaoController$_save_closure4.call(RegiaoController.groovy)
+	at groovy.lang.Closure.call(Closure.java:427)
+	at dengue.RegiaoController$_save_closure4.call(RegiaoController.groovy)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate$1.doInTransaction(GrailsTransactionTemplate.groovy:62)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:131)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate.execute(GrailsTransactionTemplate.groovy:59)
+	at dengue.RegiaoController$$EOwXJFiK.save(RegiaoController.groovy)
+	at dengue.RegiaoController$$DOwXJFiK.save(Unknown Source)
+	at dengue.RegiaoController.save(RegiaoController.groovy)
+	at dengue.RegiaoController$$EOwXJFiK.save(RegiaoController.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReloadedTypeInvoker$2.invoke(ReloadedTypeInvoker.java:122)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1283)
+	at org.codehaus.groovy.grails.web.servlet.mvc.MixedGrailsControllerHelper.invoke(MixedGrailsControllerHelper.java:154)
+	at org.codehaus.groovy.grails.web.servlet.mvc.AbstractGrailsControllerHelper.handleAction(AbstractGrailsControllerHelper.java:354)
+	at org.codehaus.groovy.grails.web.servlet.mvc.AbstractGrailsControllerHelper.executeAction(AbstractGrailsControllerHelper.java:231)
+	at org.codehaus.groovy.grails.web.servlet.mvc.AbstractGrailsControllerHelper.handleURI(AbstractGrailsControllerHelper.java:197)
+	at org.codehaus.groovy.grails.web.servlet.mvc.AbstractGrailsControllerHelper.handleURI(AbstractGrailsControllerHelper.java:121)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsController.handleRequest(SimpleGrailsController.java:72)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.codehaus.groovy.grails.web.servlet.GrailsDispatcherServlet.doDispatch(GrailsDispatcherServlet.java:355)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:953)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:829)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:343)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:260)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:332)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:297)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:288)
+	at org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter.doFilterInternal(UrlMappingsFilter.java:217)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.executeFilterChainWithWrappedResponse(GrailsPageFilter.java:233)
+	at org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.obtainContent(GrailsPageFilter.java:208)
+	at org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.doFilter(GrailsPageFilter.java:153)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at javax.servlet.FilterChain$doFilter.call(Unknown Source)
+	at org.grails.plugin.resource.DevModeSanityFilter.doFilter(DevModeSanityFilter.groovy:45)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.codehaus.groovy.grails.web.servlet.mvc.GrailsWebRequestFilter.doFilterInternal(GrailsWebRequestFilter.java:69)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.codehaus.groovy.grails.web.filters.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:67)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:343)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:260)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:54:48,337 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: regiaoInstance for class: dengue.RegiaoController
+	at dengue.RegiaoController$$EOwXJFiK.sad(RegiaoController.groovy:145)
+	at dengue.RegiaoController$$EOwXJFiK.$tt__save(RegiaoController.groovy:36)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:54:48,352 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: regiaoInstance for class: dengue.RegiaoController
+	at dengue.RegiaoController$$EOwXJFiK.sad(RegiaoController.groovy:145)
+	at dengue.RegiaoController$$EOwXJFiK.$tt__save(RegiaoController.groovy:36)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:54:48,354 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: regiaoInstance for class: dengue.RegiaoController
+	at dengue.RegiaoController$$EOwXJFiK.sad(RegiaoController.groovy:145)
+	at dengue.RegiaoController$$EOwXJFiK.$tt__save(RegiaoController.groovy:36)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:54:48,359 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: regiaoInstance for class: dengue.RegiaoController
+	at dengue.RegiaoController$$EOwXJFiK.sad(RegiaoController.groovy:145)
+	at dengue.RegiaoController$$EOwXJFiK.$tt__save(RegiaoController.groovy:36)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:54:48,362 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: regiaoInstance for class: dengue.RegiaoController
+	at dengue.RegiaoController$$EOwXJFiK.sad(RegiaoController.groovy:145)
+	at dengue.RegiaoController$$EOwXJFiK.$tt__save(RegiaoController.groovy:36)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:56:41,271 [http-bio-8080-exec-10] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: regiaoInstance for class: dengue.RegiaoController
+	at org.codehaus.groovy.grails.plugins.web.api.ControllerTagLibraryApi.propertyMissing(ControllerTagLibraryApi.java:115)
+	at dengue.RegiaoController.propertyMissing(RegiaoController.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaClassImpl.invokeMissingProperty(MetaClassImpl.java:779)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:1734)
+	at groovy.lang.ExpandoMetaClass.getProperty(ExpandoMetaClass.java:1140)
+	at groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:3461)
+	at groovy.lang.ExpandoMetaClass.getProperty(ExpandoMetaClass.java:1152)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassGetPropertySite.getProperty(PogoMetaClassGetPropertySite.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:231)
+	at dengue.RegiaoController.sad(RegiaoController.groovy:146)
+	at dengue.RegiaoController.this$2$sad(RegiaoController.groovy)
+	at dengue.RegiaoController$this$2$sad$2.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137)
+	at dengue.RegiaoController.$tt__save(RegiaoController.groovy:36)
+	at dengue.RegiaoController$_save_closure4.doCall(RegiaoController.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1086)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:910)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at dengue.RegiaoController$_save_closure4.call(RegiaoController.groovy)
+	at groovy.lang.Closure.call(Closure.java:427)
+	at dengue.RegiaoController$_save_closure4.call(RegiaoController.groovy)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate$1.doInTransaction(GrailsTransactionTemplate.groovy:62)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:131)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate.execute(GrailsTransactionTemplate.groovy:59)
+	at dengue.RegiaoController.save(RegiaoController.groovy)
+	at dengue.RegiaoController.save(RegiaoController.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at org.codehaus.groovy.grails.web.servlet.mvc.MixedGrailsControllerHelper.invoke(MixedGrailsControllerHelper.java:154)
+	at org.codehaus.groovy.grails.web.servlet.mvc.AbstractGrailsControllerHelper.handleAction(AbstractGrailsControllerHelper.java:354)
+	at org.codehaus.groovy.grails.web.servlet.mvc.AbstractGrailsControllerHelper.executeAction(AbstractGrailsControllerHelper.java:231)
+	at org.codehaus.groovy.grails.web.servlet.mvc.AbstractGrailsControllerHelper.handleURI(AbstractGrailsControllerHelper.java:197)
+	at org.codehaus.groovy.grails.web.servlet.mvc.AbstractGrailsControllerHelper.handleURI(AbstractGrailsControllerHelper.java:121)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsController.handleRequest(SimpleGrailsController.java:72)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.codehaus.groovy.grails.web.servlet.GrailsDispatcherServlet.doDispatch(GrailsDispatcherServlet.java:355)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:953)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:829)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:343)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:260)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:332)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:297)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:288)
+	at org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter.doFilterInternal(UrlMappingsFilter.java:217)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.executeFilterChainWithWrappedResponse(GrailsPageFilter.java:233)
+	at org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.obtainContent(GrailsPageFilter.java:208)
+	at org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.doFilter(GrailsPageFilter.java:153)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at javax.servlet.FilterChain$doFilter.call(Unknown Source)
+	at org.grails.plugin.resource.DevModeSanityFilter.doFilter(DevModeSanityFilter.groovy:45)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.codehaus.groovy.grails.web.servlet.mvc.GrailsWebRequestFilter.doFilterInternal(GrailsWebRequestFilter.java:69)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.codehaus.groovy.grails.web.filters.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:67)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:343)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:260)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:56:41,280 [http-bio-8080-exec-10] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: regiaoInstance for class: dengue.RegiaoController
+	at dengue.RegiaoController.sad(RegiaoController.groovy:146)
+	at dengue.RegiaoController.$tt__save(RegiaoController.groovy:36)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:56:41,296 [http-bio-8080-exec-10] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: regiaoInstance for class: dengue.RegiaoController
+	at dengue.RegiaoController.sad(RegiaoController.groovy:146)
+	at dengue.RegiaoController.$tt__save(RegiaoController.groovy:36)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:56:41,298 [http-bio-8080-exec-10] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: regiaoInstance for class: dengue.RegiaoController
+	at dengue.RegiaoController.sad(RegiaoController.groovy:146)
+	at dengue.RegiaoController.$tt__save(RegiaoController.groovy:36)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:56:41,303 [http-bio-8080-exec-10] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: regiaoInstance for class: dengue.RegiaoController
+	at dengue.RegiaoController.sad(RegiaoController.groovy:146)
+	at dengue.RegiaoController.$tt__save(RegiaoController.groovy:36)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:56:41,305 [http-bio-8080-exec-10] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: regiaoInstance for class: dengue.RegiaoController
+	at dengue.RegiaoController.sad(RegiaoController.groovy:146)
+	at dengue.RegiaoController.$tt__save(RegiaoController.groovy:36)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:58:18,186 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/home/vanessa/Documentos/Informatica e Saude/SAD/Dengue/grails-app/controllers/dengue/RegiaoController.groovy: 142: Apparent variable 'params' was found in a static scope but doesn't refer to a local variable, static field or class. Possible causes:
+You attempted to reference a variable in the binding or an instance variable from a static context.
+You misspelled a classname or statically imported field. Please check the spelling.
+You attempted to use a method 'params' but left out brackets in a place not allowed by the grammar.
+ @ line 142, column 34.
+           idRegiao = retornaRegiao(params.regiao.toString())
+                                    ^
+
+/home/vanessa/Documentos/Informatica e Saude/SAD/Dengue/grails-app/controllers/dengue/RegiaoController.groovy: 146: Apparent variable 'regiaoInstance' was found in a static scope but doesn't refer to a local variable, static field or class. Possible causes:
+You attempted to reference a variable in the binding or an instance variable from a static context.
+You misspelled a classname or statically imported field. Please check the spelling.
+You attempted to use a method 'regiaoInstance' but left out brackets in a place not allowed by the grammar.
+ @ line 146, column 9.
+           regiaoInstance.paracetomol = "alalal"
+           ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:309)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1065)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:572)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:527)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:506)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:59)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:215)
+	at org.codehaus.groovy.ant.Groovyc.runCompiler(Groovyc.java:1104)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:1155)
+	at org.codehaus.groovy.grails.compiler.Grailsc.compile(Grailsc.java:78)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:770)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at sun.reflect.GeneratedMethodAccessor239.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1260)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at groovy.util.AntBuilder.performTask(AntBuilder.java:319)
+	at groovy.util.AntBuilder.nodeCompleted(AntBuilder.java:264)
+	at groovy.util.BuilderSupport.doInvokeMethod(BuilderSupport.java:147)
+	at groovy.util.AntBuilder.doInvokeMethod(AntBuilder.java:203)
+	at groovy.util.BuilderSupport.invokeMethod(BuilderSupport.java:64)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectCompiler.compile(GrailsProjectCompiler.groovy:296)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectCompiler$compile$3.callCurrent(Unknown Source)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectCompiler.compile(GrailsProjectCompiler.groovy:263)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectCompiler.compileAll(GrailsProjectCompiler.groovy:254)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher.compileIfSource(GrailsProjectWatcher.java:279)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher.access$300(GrailsProjectWatcher.java:46)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher$1.onChange(GrailsProjectWatcher.java:153)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.fireOnChange(DirectoryWatcher.java:174)
+	at org.codehaus.groovy.grails.compiler.DirectoryWatcher.run(DirectoryWatcher.java:156)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher.run(GrailsProjectWatcher.java:178)
+	at java_lang_Runnable$run.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112)
+	at org.codehaus.groovy.grails.cli.fork.ForkedGrailsProcess.startProjectWatcher(ForkedGrailsProcess.groovy:707)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1086)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:910)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1031)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:910)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:145)
+	at org.codehaus.groovy.grails.cli.fork.ForkedGrailsProcess$_setupReloading_closure16.doCall(ForkedGrailsProcess.groovy:696)
+	at org.codehaus.groovy.grails.cli.fork.ForkedGrailsProcess$_setupReloading_closure16.doCall(ForkedGrailsProcess.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1086)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:910)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at groovy.lang.Closure.call(Closure.java:405)
+	at groovy.lang.Closure.run(Closure.java:492)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:58:18,186 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/home/vanessa/Documentos/Informatica e Saude/SAD/Dengue/grails-app/controllers/dengue/RegiaoController.groovy: 142: Apparent variable 'params' was found in a static scope but doesn't refer to a local variable, static field or class. Possible causes:
+You attempted to reference a variable in the binding or an instance variable from a static context.
+You misspelled a classname or statically imported field. Please check the spelling.
+You attempted to use a method 'params' but left out brackets in a place not allowed by the grammar.
+ @ line 142, column 34.
+           idRegiao = retornaRegiao(params.regiao.toString())
+                                    ^
+
+/home/vanessa/Documentos/Informatica e Saude/SAD/Dengue/grails-app/controllers/dengue/RegiaoController.groovy: 146: Apparent variable 'regiaoInstance' was found in a static scope but doesn't refer to a local variable, static field or class. Possible causes:
+You attempted to reference a variable in the binding or an instance variable from a static context.
+You misspelled a classname or statically imported field. Please check the spelling.
+You attempted to use a method 'regiaoInstance' but left out brackets in a place not allowed by the grammar.
+ @ line 146, column 9.
+           regiaoInstance.paracetomol = "alalal"
+           ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:309)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1065)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:572)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:527)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:506)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:59)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:215)
+	at org.codehaus.groovy.ant.Groovyc.runCompiler(Groovyc.java:1104)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:1155)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:770)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:58:18,204 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/home/vanessa/Documentos/Informatica e Saude/SAD/Dengue/grails-app/controllers/dengue/RegiaoController.groovy: 142: Apparent variable 'params' was found in a static scope but doesn't refer to a local variable, static field or class. Possible causes:
+You attempted to reference a variable in the binding or an instance variable from a static context.
+You misspelled a classname or statically imported field. Please check the spelling.
+You attempted to use a method 'params' but left out brackets in a place not allowed by the grammar.
+ @ line 142, column 34.
+           idRegiao = retornaRegiao(params.regiao.toString())
+                                    ^
+
+/home/vanessa/Documentos/Informatica e Saude/SAD/Dengue/grails-app/controllers/dengue/RegiaoController.groovy: 146: Apparent variable 'regiaoInstance' was found in a static scope but doesn't refer to a local variable, static field or class. Possible causes:
+You attempted to reference a variable in the binding or an instance variable from a static context.
+You misspelled a classname or statically imported field. Please check the spelling.
+You attempted to use a method 'regiaoInstance' but left out brackets in a place not allowed by the grammar.
+ @ line 146, column 9.
+           regiaoInstance.paracetomol = "alalal"
+           ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:309)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1065)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:572)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:527)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:506)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:59)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:215)
+	at org.codehaus.groovy.ant.Groovyc.runCompiler(Groovyc.java:1104)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:1155)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:770)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:58:18,204 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/home/vanessa/Documentos/Informatica e Saude/SAD/Dengue/grails-app/controllers/dengue/RegiaoController.groovy: 142: Apparent variable 'params' was found in a static scope but doesn't refer to a local variable, static field or class. Possible causes:
+You attempted to reference a variable in the binding or an instance variable from a static context.
+You misspelled a classname or statically imported field. Please check the spelling.
+You attempted to use a method 'params' but left out brackets in a place not allowed by the grammar.
+ @ line 142, column 34.
+           idRegiao = retornaRegiao(params.regiao.toString())
+                                    ^
+
+/home/vanessa/Documentos/Informatica e Saude/SAD/Dengue/grails-app/controllers/dengue/RegiaoController.groovy: 146: Apparent variable 'regiaoInstance' was found in a static scope but doesn't refer to a local variable, static field or class. Possible causes:
+You attempted to reference a variable in the binding or an instance variable from a static context.
+You misspelled a classname or statically imported field. Please check the spelling.
+You attempted to use a method 'regiaoInstance' but left out brackets in a place not allowed by the grammar.
+ @ line 146, column 9.
+           regiaoInstance.paracetomol = "alalal"
+           ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:309)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1065)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:572)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:527)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:506)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:59)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:215)
+	at org.codehaus.groovy.ant.Groovyc.runCompiler(Groovyc.java:1104)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:1155)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:770)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:58:21,313 [http-bio-8080-exec-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/home/vanessa/Documentos/Informatica e Saude/SAD/Dengue/grails-app/controllers/dengue/RegiaoController.groovy: 142: Apparent variable 'params' was found in a static scope but doesn't refer to a local variable, static field or class. Possible causes:
+You attempted to reference a variable in the binding or an instance variable from a static context.
+You misspelled a classname or statically imported field. Please check the spelling.
+You attempted to use a method 'params' but left out brackets in a place not allowed by the grammar.
+ @ line 142, column 34.
+           idRegiao = retornaRegiao(params.regiao.toString())
+                                    ^
+
+/home/vanessa/Documentos/Informatica e Saude/SAD/Dengue/grails-app/controllers/dengue/RegiaoController.groovy: 146: Apparent variable 'regiaoInstance' was found in a static scope but doesn't refer to a local variable, static field or class. Possible causes:
+You attempted to reference a variable in the binding or an instance variable from a static context.
+You misspelled a classname or statically imported field. Please check the spelling.
+You attempted to use a method 'regiaoInstance' but left out brackets in a place not allowed by the grammar.
+ @ line 146, column 9.
+           regiaoInstance.paracetomol = "alalal"
+           ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:309)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1065)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:572)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:527)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:506)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:59)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:215)
+	at org.codehaus.groovy.ant.Groovyc.runCompiler(Groovyc.java:1104)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:1155)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:770)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:58:21,314 [http-bio-8080-exec-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/home/vanessa/Documentos/Informatica e Saude/SAD/Dengue/grails-app/controllers/dengue/RegiaoController.groovy: 142: Apparent variable 'params' was found in a static scope but doesn't refer to a local variable, static field or class. Possible causes:
+You attempted to reference a variable in the binding or an instance variable from a static context.
+You misspelled a classname or statically imported field. Please check the spelling.
+You attempted to use a method 'params' but left out brackets in a place not allowed by the grammar.
+ @ line 142, column 34.
+           idRegiao = retornaRegiao(params.regiao.toString())
+                                    ^
+
+/home/vanessa/Documentos/Informatica e Saude/SAD/Dengue/grails-app/controllers/dengue/RegiaoController.groovy: 146: Apparent variable 'regiaoInstance' was found in a static scope but doesn't refer to a local variable, static field or class. Possible causes:
+You attempted to reference a variable in the binding or an instance variable from a static context.
+You misspelled a classname or statically imported field. Please check the spelling.
+You attempted to use a method 'regiaoInstance' but left out brackets in a place not allowed by the grammar.
+ @ line 146, column 9.
+           regiaoInstance.paracetomol = "alalal"
+           ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:309)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1065)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:572)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:527)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:506)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:59)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:215)
+	at org.codehaus.groovy.ant.Groovyc.runCompiler(Groovyc.java:1104)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:1155)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:770)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:58:21,318 [http-bio-8080-exec-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/home/vanessa/Documentos/Informatica e Saude/SAD/Dengue/grails-app/controllers/dengue/RegiaoController.groovy: 142: Apparent variable 'params' was found in a static scope but doesn't refer to a local variable, static field or class. Possible causes:
+You attempted to reference a variable in the binding or an instance variable from a static context.
+You misspelled a classname or statically imported field. Please check the spelling.
+You attempted to use a method 'params' but left out brackets in a place not allowed by the grammar.
+ @ line 142, column 34.
+           idRegiao = retornaRegiao(params.regiao.toString())
+                                    ^
+
+/home/vanessa/Documentos/Informatica e Saude/SAD/Dengue/grails-app/controllers/dengue/RegiaoController.groovy: 146: Apparent variable 'regiaoInstance' was found in a static scope but doesn't refer to a local variable, static field or class. Possible causes:
+You attempted to reference a variable in the binding or an instance variable from a static context.
+You misspelled a classname or statically imported field. Please check the spelling.
+You attempted to use a method 'regiaoInstance' but left out brackets in a place not allowed by the grammar.
+ @ line 146, column 9.
+           regiaoInstance.paracetomol = "alalal"
+           ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:309)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1065)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:572)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:527)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:506)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:59)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:215)
+	at org.codehaus.groovy.ant.Groovyc.runCompiler(Groovyc.java:1104)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:1155)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:770)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at java.lang.Thread.run(Thread.java:745)
+2014-11-24 10:58:21,319 [http-bio-8080-exec-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/home/vanessa/Documentos/Informatica e Saude/SAD/Dengue/grails-app/controllers/dengue/RegiaoController.groovy: 142: Apparent variable 'params' was found in a static scope but doesn't refer to a local variable, static field or class. Possible causes:
+You attempted to reference a variable in the binding or an instance variable from a static context.
+You misspelled a classname or statically imported field. Please check the spelling.
+You attempted to use a method 'params' but left out brackets in a place not allowed by the grammar.
+ @ line 142, column 34.
+           idRegiao = retornaRegiao(params.regiao.toString())
+                                    ^
+
+/home/vanessa/Documentos/Informatica e Saude/SAD/Dengue/grails-app/controllers/dengue/RegiaoController.groovy: 146: Apparent variable 'regiaoInstance' was found in a static scope but doesn't refer to a local variable, static field or class. Possible causes:
+You attempted to reference a variable in the binding or an instance variable from a static context.
+You misspelled a classname or statically imported field. Please check the spelling.
+You attempted to use a method 'regiaoInstance' but left out brackets in a place not allowed by the grammar.
+ @ line 146, column 9.
+           regiaoInstance.paracetomol = "alalal"
+           ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:309)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1065)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:572)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:550)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:527)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:506)
+	at org.codehaus.groovy.tools.FileSystemCompiler.compile(FileSystemCompiler.java:59)
+	at org.codehaus.groovy.tools.FileSystemCompiler.doCompilation(FileSystemCompiler.java:215)
+	at org.codehaus.groovy.ant.Groovyc.runCompiler(Groovyc.java:1104)
+	at org.codehaus.groovy.ant.Groovyc.compile(Groovyc.java:1155)
+	at org.codehaus.groovy.ant.Groovyc.execute(Groovyc.java:770)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at java.lang.Thread.run(Thread.java:745)

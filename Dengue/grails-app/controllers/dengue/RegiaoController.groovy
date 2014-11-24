@@ -24,7 +24,6 @@ class RegiaoController {
     @Transactional
     def save(Regiao regiaoInstance) {
 
-        int idRegiao
         if (regiaoInstance == null) {
             notFound()
             return
@@ -34,10 +33,7 @@ class RegiaoController {
             respond regiaoInstance.errors, view:'create'
             return
         }
-
-        idRegiao = retornaRegiao(regiaoInstance.regiao)
-        escreveArquivo(idRegiao)
-
+        sad(regiaoInstance)
         regiaoInstance.save flush:true
 
         request.withFormat {
@@ -105,7 +101,7 @@ class RegiaoController {
         }
     }
 
-    private int retornaRegiao(String regiao){
+    private static int retornaRegiao(String regiao){
         if (regiao.equals("Nordeste")) {
             return 1
         }
@@ -121,8 +117,8 @@ class RegiaoController {
         else return 5
     }
 
-    private void escreveArquivo(int idRegiao){
-        def arquivo ="../entrada.txt"
+    private static void escreveArquivo(int idRegiao){
+        def arquivo ="entrada.txt"
         File limpaArquivo = new File(arquivo)
         File gravaArquivo = new File(arquivo)
 
@@ -130,4 +126,24 @@ class RegiaoController {
         gravaArquivo.append(idRegiao)
         gravaArquivo.append("")
     }
+
+    private static void executaInteligencia(){
+        "./sad".execute()
+    }
+
+    private static String leArquivo(){
+        File arquivo= new File("arquivoSaida.txt")
+        String paracetomol = arquivo.getText()
+        return paracetomol
+   }
+
+    private static  void sad(Regiao regiaoInstance){
+        int idRegiao
+        idRegiao = retornaRegiao(regiaoInstance.regiao)
+        escreveArquivo(idRegiao)
+        executaInteligencia()
+        regiaoInstance.paracetomol = leArquivo()
+    }
+
+
 }

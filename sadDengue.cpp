@@ -12,9 +12,11 @@ double a, b;
 double x[LACOS], y[LACOS];
 int regiao;
 int baseAno;
+int inicio;
 
 void montaEquacaoMinimosQuadrados();
 void detectaCategoria(int ano);
+void detectaInicio(int ano);
 void exibeResultados();
 
 void menuRegioes(){
@@ -39,6 +41,7 @@ int main(){
    fscanf(arquivo, "%d", &ano);
    fscanf(arquivo, "%d", &regiao);
 
+   detectaInicio(ano);
    montaEquacaoMinimosQuadrados();
    
    return 0;
@@ -47,7 +50,6 @@ int main(){
 
 void montaEquacaoMinimosQuadrados(){
 	
-	system("color F2");
     FILE *arquivo;
     double soma_x = 0, soma_y = 0;
     double numerador, denominador;
@@ -78,4 +80,58 @@ void montaEquacaoMinimosQuadrados(){
     printf(" \t\t\tY = %lf X + (%lf)\n", a, b);
     printf("\t\t_-___-__-__-__-__-__-__-__-__-_-__-_-__-_-__-_\n");
     */
+}
+
+void detectaInicio(int ano){
+	if(ano == 2000){
+		inicio = 0;
+	}
+	else if(ano == 2001){
+		inicio = 3;
+	}
+	else if(ano == 2002){
+		inicio = 6;
+	}
+	else if(ano == 2002){
+		inicio = 9;
+	}
+	else if(ano == 2003){
+		inicio = 12;
+	}
+	else if(ano == 2004){
+		inicio = 15;
+	}
+	else if(ano == 2005){
+		inicio = 18;
+	}
+	else if(ano == 2006){
+		inicio = 21;
+	}
+	else if(ano == 2007){
+		inicio = 24;
+	}
+	else if(ano == 2008){
+		inicio = 27;
+	}
+	else if(ano == 2009){
+		inicio = 30;
+	}
+	else if(ano == 2010){
+		inicio = 33;
+	}
+	else if(ano == 2011){
+		inicio = 36;
+	}
+	else if(ano == 2012){
+		inicio = 39;
+	}
+	else if(ano == 2013){
+		inicio = 42;
+	}
+	else if(ano == 2014){
+		inicio = 45;
+	}
+	else{
+		printf("Ano invalido!\n");
+	}
 }

@@ -26,19 +26,22 @@ void menuRegioes(){
 }
 
 int main(){
-   int ano;
-   printf("Digite o ano de pesquisa\n");
-   scanf("%d",&ano); 
+
+   FILE* arquivo;
+   int ano, regiao;
+
+   arquivo = fopen("entrada.txt", "rt");
+
+   if(arquivo == NULL){
+   	 printf("Arquivo de entrada nulo\n");
+   }
    
-   printf("Digite o numero da regiao\n");
-   menuRegioes();
-   scanf("%d",&regiao);
-   
+   fscanf(arquivo, "%d", &ano);
+   fscanf(arquivo, "%d", &regiao);
+
    montaEquacaoMinimosQuadrados();
    
    detectaCategoria(ano);
-   
-   system("pause");
    
    return 0;
 }
@@ -110,8 +113,6 @@ void montaEquacaoMinimosQuadrados(){
     for(i = 1; i < LACOS; i++){
           fscanf(arquivo, "%lf",&x[i]);
           fscanf(arquivo, "%lf",&y[i]);
-          
-          //printf("%lf\n\n",x[i]);
     
            soma_x = soma_x + x[i];
            soma_y = soma_y + y[i];

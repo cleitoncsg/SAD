@@ -41,50 +41,7 @@ int main(){
 
    montaEquacaoMinimosQuadrados();
    
-   detectaCategoria(ano);
-   
    return 0;
-}
-
-
-void detectaCategoria(int ano){
-	
-	if(ano == 1998){
-		baseAno = 19;
-	}
-	else if(ano == 1999){
-		baseAno = 25;
-	}
-	else if(ano == 2000){
-		baseAno = 31;
-	}
-	else if(ano == 2001){
-		baseAno = 37;
-	}
-	else if(ano == 2002){
-		baseAno = 43;
-	}
-	else if(ano == 2003){
-		baseAno = 49;
-	}
-	else if(ano == 2004){
-		baseAno = 55;
-	}
-	else if(ano == 2005){
-		baseAno = 61;
-	}
-	else if(ano == 2006){
-		baseAno = 67;
-	}
-	else if(ano == 2007){
-		baseAno = 73;
-	}
-	else if(ano == 2008){
-		baseAno = 79;
-	}
-	
-	printf("Foco de dengue nessa regiao:\n");
-	exibeResultados();
 }
 
 

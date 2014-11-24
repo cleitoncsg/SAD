@@ -87,18 +87,6 @@ void detectaCategoria(int ano){
 	exibeResultados();
 }
 
-void exibeResultados(){
-	if(x[baseAno+regiao] < a/2 ){
-		printf("\t\tBAIXO");
-	}
-	else if(x[baseAno+regiao] > a && x[79+regiao] < a*2 ){
-		printf("\t\tMEDIO");
-	}
-	else if(x[baseAno+regiao] > a*2 ){
-		printf("\t\tALTO");
-	}
-	
-}
 
 void montaEquacaoMinimosQuadrados(){
 	
